@@ -6,7 +6,6 @@ const counterReducer = (
 ) => {
   if (action.type === "prevSubmitHandler") {
     if (state.num1 > 1) {
-      console.log('chall raha hai')
       return {
         num1: state.num1 - 5,
         num2: state.num2 - 5,

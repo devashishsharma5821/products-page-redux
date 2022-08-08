@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
+import Cardz from './Cardz';
 import classes from './Item.module.css';
 import {useSelector} from 'react-redux';
 
@@ -23,7 +23,7 @@ export default function Item() {
             return;
           }
           return (
-            <Card
+            <Cardz
               key={item.id}
               title={item.title}
               description={item.description}
@@ -45,7 +45,7 @@ export default function Item() {
           console.log(item);
             if (index <= num2 - 1 && index >= num1 - 1) {
               return (
-                <Card
+                <Cardz
                   key={item.id}
                   title={item.title}
                   description={item.description}

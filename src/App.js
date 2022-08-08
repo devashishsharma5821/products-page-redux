@@ -1,15 +1,14 @@
 import React,{Fragment} from 'react';
 import Item from './components/Item';
-import Button from './components/Button';
+import Buttons from './components/Buttons';
 import Form from './components/Form';
 
 export default function App() {
-  console.log('App');
   return (
     <Fragment>
       <Form />
       <Item />
-      <Button />
+      <Buttons />
     </Fragment>
   )
 }
